@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="zuragnuudn/icon.png">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./weather.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:wght@100&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@500&family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="lightContainer">
+            <div class="ellipseBackgroundLight">
+                <div class="firstLight"></div>
+                <div class="secondLight"></div>
+                <div class="thirdLight"></div>
+            </div>
+            <div class="lightNarSarContainer">
+                <img src="" id="containerDotorhDuguiNar">
+                <div class="light">
+                    <span class="dateLight"></span>
+                    <div class="searchteiHesgLight"> 
+                        <span class="locationLight">Ulaanbaatar</span>
+                        <input type="text" placeholder="country" class="searchLight">
+                        <img src="https://cdn-icons-png.flaticon.com/512/3104/3104496.png" id="searchIconLight" onclick="searchGarjIrneLight()" width="40px">
+                    </div>
+                    <div class="picContainerLight">
+                        <img src="../Sun (2).png" width="360px" class="conditionPicLight">
+                    </div>
+                    <span class="degreeLight"></span>
+                    <span class="conditionLight"></span>
+                </div>
+                <img src="../Snow.png" id="containerDotorhDuguiSar">
+            </div>
+        </div>
+        <div class="darkContainer">
+            <div class="ellipseBackgroundDark">
+                <div class="firstDark"></div>
+                <div class="secondDark"></div>
+                <div class="thirdDark"></div>
+                <div class="fourthDark"></div>
+            </div>
+            <div class="darkNarSarContainer">
+                <img src="../Clouds.png" id="containerDotorhDuguiSarDark">
+                <div class="dark">
+                    <span class="dateDark"></span>
+                    <div class="searchteiHesgDark"> 
+                        <span class="locationDark">Ulaanbaatar</span>
+                        <input type="searchDark" placeholder="country" class="searchDark" >
+                        <img src="https://cdn-icons-png.flaticon.com/512/3104/3104496.png" id="searchIconDark" onclick="searchGarjIrneDark()" width="40px">
+                    </div>
+                    <div class="picContainerDark">
+                        <img src="../Clouds (1).png" width="360px" class="conditionPicDark">
+                    </div>
+                    <span class="degreeDark"></span>
+                    <span class="conditionDark"></span>
+                </div>
+                <img src="../Rain (1).png" id="containerDotorhDuguiNarDark">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
